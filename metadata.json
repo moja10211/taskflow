@@ -1,0 +1,6 @@
+{
+  "name": "MojaFlow AI",
+  "description": "Autonomous AI Task Agent dashboard with ReAct loop visualization, multi-tool orchestration, and human-in-the-loop safety approvals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

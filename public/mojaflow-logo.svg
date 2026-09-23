@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- Background Circle -->
+  <circle cx="250" cy="250" r="246" fill="#ffffff" />
+  
+  <!-- Outer Thick Border -->
+  <circle cx="250" cy="250" r="238" fill="none" stroke="#000000" stroke-width="16" />
+  
+  <!-- Inner Thin Ring -->
+  <circle cx="250" cy="250" r="222" fill="none" stroke="#000000" stroke-width="3" />
+
+  <!-- Globe Background Sphere & Grid Lines -->
+  <g id="globe" stroke="#cbd5e1" stroke-width="3.5" fill="none">
+    <!-- Globe Outer Boundary -->
+    <circle cx="250" cy="250" r="162" />
+    
+    <!-- Longitudes -->
+    <line x1="250" y1="88" x2="250" y2="412" />
+    <ellipse cx="250" cy="250" rx="60" ry="162" />
+    <ellipse cx="250" cy="250" rx="118" ry="162" />
+    
+    <!-- Latitudes -->
+    <line x1="88" y1="250" x2="412" y2="250" />
+    <path d="M 104 195 Q 250 215 396 195" />
+    <path d="M 140 145 Q 250 168 360 145" />
+    <path d="M 104 305 Q 250 285 396 305" />
+    <path d="M 140 355 Q 250 332 360 355" />
+  </g>
+
+  <!-- Laurel Wreath (Left Side) -->
+  <g id="laurel-left" fill="#000000">
+    <!-- Leaf pairs along the left arc -->
+    <path d="M 72 205 C 50 190 42 165 52 145 C 68 155 78 175 72 205 Z" />
+    <path d="M 78 208 C 65 190 68 168 84 158 C 92 175 92 195 78 208 Z" />
+    
+    <path d="M 62 250 C 42 240 35 215 48 198 C 62 208 70 225 62 250 Z" />
+    <path d="M 68 252 C 55 235 60 215 76 208 C 82 225 80 242 68 252 Z" />
+    
+    <path d="M 65 295 C 45 290 38 268 50 250 C 65 258 72 275 65 295 Z" />
+    <path d="M 72 296 C 58 282 62 262 78 258 C 85 272 82 288 72 296 Z" />
+    
+    <path d="M 78 338 C 60 340 50 320 60 300 C 75 306 84 322 78 338 Z" />
+    <path d="M 88 335 C 72 325 75 305 92 300 C 98 315 95 330 88 335 Z" />
+
+    <path d="M 102 375 C 85 380 72 365 80 345 C 95 350 106 362 102 375 Z" />
+    <path d="M 115 370 C 100 360 102 342 118 338 C 124 350 120 365 115 370 Z" />
+
+    <path d="M 135 404 C 118 412 104 398 110 380 C 125 382 138 392 135 404 Z" />
+    <path d="M 148 396 C 132 390 134 372 150 368 C 155 378 152 390 148 396 Z" />
+    
+    <path d="M 92 160 C 70 145 68 120 80 105 C 95 118 100 138 92 160 Z" />
+    <path d="M 102 165 C 90 148 95 128 112 122 C 118 138 115 155 102 165 Z" />
+
+    <path d="M 125 120 C 105 105 108 82 125 70 C 138 85 138 105 125 120 Z" />
+    <path d="M 138 126 C 128 110 138 92 152 90 C 155 105 150 120 138 126 Z" />
+  </g>
+
+  <!-- Laurel Wreath (Right Side - Mirrored) -->
+  <g id="laurel-right" transform="translate(500, 0) scale(-1, 1)" fill="#000000">
+    <path d="M 72 205 C 50 190 42 165 52 145 C 68 155 78 175 72 205 Z" />
+    <path d="M 78 208 C 65 190 68 168 84 158 C 92 175 92 195 78 208 Z" />
+    
+    <path d="M 62 250 C 42 240 35 215 48 198 C 62 208 70 225 62 250 Z" />
+    <path d="M 68 252 C 55 235 60 215 76 208 C 82 225 80 242 68 252 Z" />
+    
+    <path d="M 65 295 C 45 290 38 268 50 250 C 65 258 72 275 65 295 Z" />
+    <path d="M 72 296 C 58 282 62 262 78 258 C 85 272 82 288 72 296 Z" />
+    
+    <path d="M 78 338 C 60 340 50 320 60 300 C 75 306 84 322 78 338 Z" />
+    <path d="M 88 335 C 72 325 75 305 92 300 C 98 315 95 330 88 335 Z" />
+
+    <path d="M 102 375 C 85 380 72 365 80 345 C 95 350 106 362 102 375 Z" />
+    <path d="M 115 370 C 100 360 102 342 118 338 C 124 350 120 365 115 370 Z" />
+
+    <path d="M 135 404 C 118 412 104 398 110 380 C 125 382 138 392 135 404 Z" />
+    <path d="M 148 396 C 132 390 134 372 150 368 C 155 378 152 390 148 396 Z" />
+    
+    <path d="M 92 160 C 70 145 68 120 80 105 C 95 118 100 138 92 160 Z" />
+    <path d="M 102 165 C 90 148 95 128 112 122 C 118 138 115 155 102 165 Z" />
+
+    <path d="M 125 120 C 105 105 108 82 125 70 C 138 85 138 105 125 120 Z" />
+    <path d="M 138 126 C 128 110 138 92 152 90 C 155 105 150 120 138 126 Z" />
+  </g>
+
+  <!-- Central Silhouette: Anonymous Headless Suited Figure -->
+  <g id="suited-figure">
+    <!-- Main Jacket Body -->
+    <path d="M 145 406 C 155 330 152 278 178 262 C 205 248 228 238 238 236 C 244 240 256 240 262 236 C 272 238 295 248 322 262 C 348 278 345 330 355 406 C 300 414 200 414 145 406 Z" fill="#000000" />
+    
+    <!-- White Shirt Collar Triangle (Under Lapels) -->
+    <polygon points="230,237 270,237 250,328" fill="#ffffff" />
+    
+    <!-- Left Lapel Notch & Shadow -->
+    <polygon points="232,237 218,272 244,328 230,328 206,268 226,237" fill="#000000" />
+    
+    <!-- Right Lapel Notch & Shadow -->
+    <polygon points="268,237 282,272 256,328 270,328 294,268 274,237" fill="#000000" />
+
+    <!-- White Collar Wings -->
+    <polygon points="232,237 242,266 248,248" fill="#ffffff" />
+    <polygon points="268,237 258,266 252,248" fill="#ffffff" />
+    
+    <!-- Black Necktie -->
+    <polygon points="246,245 254,245 256,260 250,264 244,260" fill="#000000" />
+    <polygon points="246,263 254,263 259,318 250,328 241,318" fill="#000000" />
+    
+    <!-- Jacket Silhouette Crisp Outline Trim -->
+    <path d="M 238 236 C 244 241 256 241 262 236" stroke="#ffffff" stroke-width="2.5" fill="none" />
+  </g>
+
+  <!-- Question Mark Head (?) -->
+  <g id="question-mark" fill="#000000">
+    <!-- Question mark dot right above collar -->
+    <circle cx="250" cy="207" r="8.5" />
+    
+    <!-- Question mark hook / body -->
+    <path d="M 242 189 C 242 178 246 172 253 166 C 263 158 272 152 272 138 C 272 125 262 116 249 116 C 236 116 226 123 224 135 L 208 131 C 212 112 227 101 249 101 C 272 101 289 115 289 137 C 289 155 277 165 266 173 C 259 178 257 182 257 189 L 242 189 Z" />
+  </g>
+
+  <!-- Top Curved Brand Text: MOJA -->
+  <defs>
+    <path id="moja-arc" d="M 120 128 A 170 170 0 0 1 380 128" fill="none" />
+    <path id="global-arc" d="M 130 422 A 175 175 0 0 0 370 422" fill="none" />
+  </defs>
+
+  <text font-family="'Arial Black', 'Impact', -apple-system, sans-serif" font-weight="900" font-size="58" letter-spacing="4" fill="#000000">
+    <textPath href="#moja-arc" startOffset="50%" text-anchor="middle">
+      MOJA
+    </textPath>
+  </text>
+
+  <!-- Bottom Brand Text: GLOBAL SOLUTIONS CO. -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="900" fill="#000000" text-anchor="middle">
+    <text x="250" y="442" font-size="22" letter-spacing="3">GLOBAL</text>
+    <text x="250" y="466" font-size="18" letter-spacing="2">SOLUTIONS CO.</text>
+  </g>
+</svg>
